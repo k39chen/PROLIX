@@ -2,7 +2,11 @@ PROLIX
 ======
 
 A bottom-up implementation of a C++ game engine using SDL (Simple Direct Media Library) and OpenGL.
-_______________
+
+About
+-------------
+
+
 Structured into the following primary components:
 
 + `PRLXEngine` - The core of the PROLIX engine, responsible for managing the life cycle of all the engine components
@@ -13,6 +17,11 @@ Structured into the following primary components:
 + `PRLXText` - Helps to load font resources and render/animate text
 
 Demo videos of PROLIX performance and capabilities are accessible at `/demos`.
+
+
+License
+-------------
+Copyright (c) 2011 Kevin Chen.
 
 _______________
 **This project is no longer being developed or supported.**
