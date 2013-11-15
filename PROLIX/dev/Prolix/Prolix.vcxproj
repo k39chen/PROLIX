@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libDriver.h" />
+    <ClInclude Include="prolix\common\include\cAnimation.h" />
+    <ClInclude Include="prolix\common\include\cBaseObject.h" />
+    <ClInclude Include="prolix\common\include\cCartesian.h" />
+    <ClInclude Include="prolix\common\include\cConstants.h" />
+    <ClInclude Include="prolix\common\include\cEntity.h" />
+    <ClInclude Include="prolix\common\include\cFont.h" />
+    <ClInclude Include="prolix\common\include\cLabel.h" />
+    <ClInclude Include="prolix\common\include\cResources.h" />
+    <ClInclude Include="prolix\common\include\cSprite.h" />
+    <ClInclude Include="prolix\common\include\cTexture.h" />
+    <ClInclude Include="prolix\common\include\cTimer.h" />
+    <ClInclude Include="prolix\common\include\cTween.h" />
+    <ClInclude Include="prolix\common\include\cUrl.h" />
+    <ClInclude Include="prolix\common\include\xDraw.h" />
+    <ClInclude Include="prolix\common\include\xRandom.h" />
+    <ClInclude Include="prolix\common\include\xString.h" />
+    <ClInclude Include="prolix\common\include\xVector.h" />
+    <ClInclude Include="prolix\common\lib\libCommon.h" />
+    <ClInclude Include="prolix\engine\include\PrlxEngine.h" />
+    <ClInclude Include="prolix\engine\include\PrlxGraphics.h" />
+    <ClInclude Include="prolix\engine\include\PrlxInput.h" />
+    <ClInclude Include="prolix\engine\include\PrlxMixer.h" />
+    <ClInclude Include="prolix\engine\include\PrlxPhysics.h" />
+    <ClInclude Include="prolix\engine\include\PrlxText.h" />
+    <ClInclude Include="prolix\engine\lib\libPrlxEngine.h" />
+    <ClInclude Include="prolix\framework\include\cAssetMgr.h" />
+    <ClInclude Include="prolix\framework\include\cGame.h" />
+    <ClInclude Include="prolix\framework\include\cGameDataMgr.h" />
+    <ClInclude Include="prolix\framework\include\cLocMgr.h" />
+    <ClInclude Include="prolix\framework\include\cLogMgr.h" />
+    <ClInclude Include="prolix\framework\include\cPlayerDataMgr.h" />
+    <ClInclude Include="prolix\framework\include\cPlayerPreferenceMgr.h" />
+    <ClInclude Include="prolix\framework\include\cTweenMgr.h" />
+    <ClInclude Include="prolix\framework\lib\libFramework.h" />
+    <ClInclude Include="prolix\interface\include\cCursor.h" />
+    <ClInclude Include="prolix\interface\include\cmpButton.h" />
+    <ClInclude Include="prolix\interface\include\cmpDialogueBox.h" />
+    <ClInclude Include="prolix\interface\include\cmpOptionList.h" />
+    <ClInclude Include="prolix\interface\include\cmpTextbox.h" />
+    <ClInclude Include="prolix\interface\include\cmpWindow.h" />
+    <ClInclude Include="prolix\interface\lib\libInterface.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="appDriver.cpp" />
+    <ClCompile Include="prolix\common\src\cAnimation.cpp" />
+    <ClCompile Include="prolix\common\src\cBaseObject.cpp" />
+    <ClCompile Include="prolix\common\src\cCartesian.cpp" />
+    <ClCompile Include="prolix\common\src\cEntity.cpp" />
+    <ClCompile Include="prolix\common\src\cFont.cpp" />
+    <ClCompile Include="prolix\common\src\cLabel.cpp" />
+    <ClCompile Include="prolix\common\src\cResources.cpp" />
+    <ClCompile Include="prolix\common\src\cSprite.cpp" />
+    <ClCompile Include="prolix\common\src\cTexture.cpp" />
+    <ClCompile Include="prolix\common\src\cTimer.cpp" />
+    <ClCompile Include="prolix\common\src\cTween.cpp" />
+    <ClCompile Include="prolix\common\src\cUrl.cpp" />
+    <ClCompile Include="prolix\common\src\xDraw.cpp" />
+    <ClCompile Include="prolix\common\src\xRandom.cpp" />
+    <ClCompile Include="prolix\common\src\xString.cpp" />
+    <ClCompile Include="prolix\common\src\xVector.cpp" />
+    <ClCompile Include="prolix\engine\src\PrlxEngine.cpp" />
+    <ClCompile Include="prolix\engine\src\PrlxGraphics.cpp" />
+    <ClCompile Include="prolix\engine\src\PrlxInput.cpp" />
+    <ClCompile Include="prolix\engine\src\PrlxMixer.cpp" />
+    <ClCompile Include="prolix\engine\src\PrlxPhysics.cpp" />
+    <ClCompile Include="prolix\engine\src\PrlxText.cpp" />
+    <ClCompile Include="prolix\framework\src\cAssetMgr.cpp" />
+    <ClCompile Include="prolix\framework\src\cGame.cpp" />
+    <ClCompile Include="prolix\framework\src\cGameDataMgr.cpp" />
+    <ClCompile Include="prolix\framework\src\cLocMgr.cpp" />
+    <ClCompile Include="prolix\framework\src\cLogMgr.cpp" />
+    <ClCompile Include="prolix\framework\src\cPlayerDataMgr.cpp" />
+    <ClCompile Include="prolix\framework\src\cPlayerPreferenceMgr.cpp" />
+    <ClCompile Include="prolix\framework\src\cTweenMgr.cpp" />
+    <ClCompile Include="prolix\interface\src\cCursor.cpp" />
+    <ClCompile Include="prolix\interface\src\cmpButton.cpp" />
+    <ClCompile Include="prolix\interface\src\cmpDialogueBox.cpp" />
+    <ClCompile Include="prolix\interface\src\cmpOptionList.cpp" />
+    <ClCompile Include="prolix\interface\src\cmpTextbox.cpp" />
+    <ClCompile Include="prolix\interface\src\cmpWindow.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6B1CE2A8-1145-46CB-89BF-CA34950CC1CB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Prolix</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files\Microsoft SDKs\Windows\v7.0A\Include;C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Include;C:\SDL\include;C:\Program Files\Microsoft Visual Studio 10.0\VC\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\Microsoft SDKs\Windows\v7.0A\Lib;C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files\Microsoft Visual Studio 10.0\VC\lib;C:\SDL\lib;$(LibraryPath);$(WindowsSdkDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3dx10.lib;d3d10.lib;SDL.lib;SDLmain.lib;SDL_image.lib;SDL_ttf.lib;SDL_mixer.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

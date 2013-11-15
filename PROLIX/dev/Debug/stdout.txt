@@ -1,0 +1,42 @@
+(15:43:46)I: OVERSEER log manager initalized
+(15:43:46)I: Set log verbosity: VERBOSE
+(15:43:46)I: Logging printed to prolix/overseer.log
+(15:43:46)I: cStack::cStack >>>> Asset Aliasing Stack initialized
+(15:43:46)I: cStack::cStack >>>> Texture Stack initialized
+(15:43:46)I: cStack::cStack >>>> Font Stack initialized
+(15:43:46)I: cStack::cStack >>>> BGM Stack initialized
+(15:43:46)I: cStack::cStack >>>> SFX Stack initialized
+(15:43:46)I: PrlxGraphics::PrlxGraphics >>>> PROLIX Graphics Engine initialized
+(15:43:46)I: PrlxInput::PrlxInput >>>> PROLIX Input Engine initalized
+(15:43:46)I: PrlxText::PrlxText >>>> PROLIX Text Engine initalized
+(15:43:46)I: PrlxPhysics::PrlxPhysics >>>> PROLIX Physics Engine initalized
+(15:43:46)I: PrlxMixer::PrlxMixer >>>> PROLIX Mixer Engine initialized
+(15:43:46)I: PrlxEngine::PrlxEngine >>>> PROLIX Engine components initalized successfully
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/images/kirby.png' registered and aliased to 'kirby.png'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/images/gradient.png' registered and aliased to 'gradient.png'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/images/health_bar_green.png' registered and aliased to 'health_bar_green.png'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/images/health_bar_red.png' registered and aliased to 'health_bar_red.png'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/images/effect.png' registered and aliased to 'effect.png'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/images/cursoreffect.png' registered and aliased to 'cursoreffect.png'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/images/comrade.png' registered and aliased to 'comrade.png'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/images/adversary.png' registered and aliased to 'adversary.png'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/images/hud/hud_b_frame.png' registered and aliased to 'hud_b_frame.png'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/images/hud/hud_b_mug_back.png' registered and aliased to 'hud_b_mug_back.png'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/images/hud/hud_b_health.png' registered and aliased to 'hud_b_health.png'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/images/hud/hud_b_mana.png' registered and aliased to 'hud_b_mana.png'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/images/hud/hud_b_mask.png' registered and aliased to 'hud_b_mask.png'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/images/metasync/metasync_full.png' registered and aliased to 'metasync_full.png'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/images/metasync/metasync_empty.png' registered and aliased to 'metasync_empty.png'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/root/images/blank.png' registered and aliased to 'blank.png'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/root/images/button.png' registered and aliased to 'button.png'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/root/images/cursor.png' registered and aliased to 'cursor.png'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/root/images/wskin_default.png' registered and aliased to 'wskin_default.png'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/font/abberancy.ttf' registered and aliased to 'abberancy.ttf'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/font/armorpiercing.ttf' registered and aliased to 'armorpiercing.ttf'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/font/cenobyte.ttf' registered and aliased to 'cenobyte.ttf'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/font/droid.ttf' registered and aliased to 'droid.ttf'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/font/euphorig.ttf' registered and aliased to 'euphorig.ttf'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/font/europa.ttf' registered and aliased to 'europa.ttf'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/font/ninjapenguin.ttf' registered and aliased to 'ninjapenguin.ttf'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/bgm/music.mp3' registered and aliased to 'music.mp3'
+(15:43:47)V: cAssetMgr::AddFilepath >>>> File path '../assets/sandbox/sfx/sample.wav' registered and aliased to 'sample.wav'

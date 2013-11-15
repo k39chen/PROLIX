@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\prolix">
+      <UniqueIdentifier>{75bc81db-acca-43ec-9313-17662da8c65e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\common">
+      <UniqueIdentifier>{2be81f25-9892-427b-8949-cf799815ef3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\interface">
+      <UniqueIdentifier>{e3c4f32a-118d-48fe-b2ed-80478d519f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\engine">
+      <UniqueIdentifier>{c178dd28-2fb5-48d6-ae5c-24e18ed4325d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\framework">
+      <UniqueIdentifier>{ee94e21e-63f0-48e1-a4a8-a50edbec9219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\common\include">
+      <UniqueIdentifier>{eab5cd34-2888-438d-a30e-cede254adc50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\common\src">
+      <UniqueIdentifier>{f1012005-bc03-4897-8ebd-32efa241d36e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\common\lib">
+      <UniqueIdentifier>{f34e6a37-0705-4872-9c30-46bbf3c78999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\interface\include">
+      <UniqueIdentifier>{916eac75-d2f2-4650-990b-ab3096800551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\interface\lib">
+      <UniqueIdentifier>{1fd72759-168b-4a89-a76a-bfd9dec1bbb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\interface\src">
+      <UniqueIdentifier>{6eb0a7b7-85f6-4209-b94b-4a7c3e10d178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\framework\include">
+      <UniqueIdentifier>{75b4a80c-b6c8-4d9d-bf59-0e31fa998049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\framework\lib">
+      <UniqueIdentifier>{53d1d977-83ac-472f-a01e-08c509f57c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\framework\src">
+      <UniqueIdentifier>{38df8e8a-2072-4640-a397-44e3cfc41244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\engine\include">
+      <UniqueIdentifier>{1c28e233-976b-46d8-9eb7-38eaad58cb46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\engine\lib">
+      <UniqueIdentifier>{3dd5e9dd-fe7b-4462-991f-7dbe4122bb2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\engine\src">
+      <UniqueIdentifier>{8946686d-191e-4b20-8d29-24cc09b6f865}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="prolix\interface\include\cCursor.h">
+      <Filter>Source Files\prolix\interface\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\interface\include\cmpButton.h">
+      <Filter>Source Files\prolix\interface\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\interface\include\cmpDialogueBox.h">
+      <Filter>Source Files\prolix\interface\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\interface\include\cmpOptionList.h">
+      <Filter>Source Files\prolix\interface\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\interface\include\cmpTextbox.h">
+      <Filter>Source Files\prolix\interface\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\interface\include\cmpWindow.h">
+      <Filter>Source Files\prolix\interface\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\interface\lib\libInterface.h">
+      <Filter>Source Files\prolix\interface\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\framework\lib\libFramework.h">
+      <Filter>Source Files\prolix\framework\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\framework\include\cAssetMgr.h">
+      <Filter>Source Files\prolix\framework\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\framework\include\cGame.h">
+      <Filter>Source Files\prolix\framework\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\framework\include\cGameDataMgr.h">
+      <Filter>Source Files\prolix\framework\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\framework\include\cLocMgr.h">
+      <Filter>Source Files\prolix\framework\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\framework\include\cLogMgr.h">
+      <Filter>Source Files\prolix\framework\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\framework\include\cPlayerDataMgr.h">
+      <Filter>Source Files\prolix\framework\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\framework\include\cPlayerPreferenceMgr.h">
+      <Filter>Source Files\prolix\framework\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\framework\include\cTweenMgr.h">
+      <Filter>Source Files\prolix\framework\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\engine\lib\libPrlxEngine.h">
+      <Filter>Source Files\prolix\engine\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\engine\include\PrlxEngine.h">
+      <Filter>Source Files\prolix\engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\engine\include\PrlxGraphics.h">
+      <Filter>Source Files\prolix\engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\engine\include\PrlxInput.h">
+      <Filter>Source Files\prolix\engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\engine\include\PrlxMixer.h">
+      <Filter>Source Files\prolix\engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\engine\include\PrlxPhysics.h">
+      <Filter>Source Files\prolix\engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\engine\include\PrlxText.h">
+      <Filter>Source Files\prolix\engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\lib\libCommon.h">
+      <Filter>Source Files\prolix\common\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cAnimation.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cBaseObject.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cCartesian.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cEntity.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cFont.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cLabel.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cResources.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cSprite.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cTexture.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cTimer.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cTween.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\xDraw.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\xRandom.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\xString.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\xVector.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cConstants.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cUrl.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libDriver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="prolix\interface\src\cCursor.cpp">
+      <Filter>Source Files\prolix\interface\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\interface\src\cmpButton.cpp">
+      <Filter>Source Files\prolix\interface\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\interface\src\cmpDialogueBox.cpp">
+      <Filter>Source Files\prolix\interface\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\interface\src\cmpOptionList.cpp">
+      <Filter>Source Files\prolix\interface\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\interface\src\cmpTextbox.cpp">
+      <Filter>Source Files\prolix\interface\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\interface\src\cmpWindow.cpp">
+      <Filter>Source Files\prolix\interface\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\framework\src\cAssetMgr.cpp">
+      <Filter>Source Files\prolix\framework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\framework\src\cGame.cpp">
+      <Filter>Source Files\prolix\framework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\framework\src\cGameDataMgr.cpp">
+      <Filter>Source Files\prolix\framework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\framework\src\cLocMgr.cpp">
+      <Filter>Source Files\prolix\framework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\framework\src\cLogMgr.cpp">
+      <Filter>Source Files\prolix\framework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\framework\src\cPlayerDataMgr.cpp">
+      <Filter>Source Files\prolix\framework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\framework\src\cPlayerPreferenceMgr.cpp">
+      <Filter>Source Files\prolix\framework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\framework\src\cTweenMgr.cpp">
+      <Filter>Source Files\prolix\framework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\engine\src\PrlxEngine.cpp">
+      <Filter>Source Files\prolix\engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\engine\src\PrlxGraphics.cpp">
+      <Filter>Source Files\prolix\engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\engine\src\PrlxInput.cpp">
+      <Filter>Source Files\prolix\engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\engine\src\PrlxMixer.cpp">
+      <Filter>Source Files\prolix\engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\engine\src\PrlxPhysics.cpp">
+      <Filter>Source Files\prolix\engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\engine\src\PrlxText.cpp">
+      <Filter>Source Files\prolix\engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cAnimation.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cBaseObject.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cCartesian.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cEntity.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cFont.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cLabel.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cResources.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cSprite.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cTexture.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cTimer.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cTween.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\xDraw.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\xRandom.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\xString.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\xVector.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cUrl.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="appDriver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
